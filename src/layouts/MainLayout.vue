@@ -71,7 +71,7 @@
 
       <q-page-container>
         <q-page class="q-px-lg q-py-md">
-          <div class="q-pa-md row items-start q-gutter-md">
+          <div class="q-pa-md row items-start q-gutter-md justify-center">
             <template v-for="(card, index) in videoCards" :key="index">
               <q-card class="my-card q-mr-lg" flat bordered>
                 <q-img class="yt-img" :src="card.imgSrc" />
